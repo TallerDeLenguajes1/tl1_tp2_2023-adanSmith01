@@ -1,0 +1,4 @@
+# Archivos a ser ignorados
+*.exe
+*.o
+*tds
