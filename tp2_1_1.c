@@ -1,5 +1,4 @@
 // codigo a completar
-//codigo a completar
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
