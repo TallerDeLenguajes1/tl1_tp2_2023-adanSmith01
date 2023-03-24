@@ -1,0 +1,13 @@
+- Al crearse archivos en una rama, estos se mantienen en la misma rama una vez que pasaron al estado de confirmación 
+(es decir, al ejecutar el comando git commit). Por lo que la rama principal no notaría a estos archivos ni sus cambios ya que
+crear una rama es crear una nueva línea de desarrollo que no afecte el desarrollo dado en la rama principal.
+
+- Comparando la última visualización gráfica del historial de versiones y la anterior, se muestra la última confirmación 
+realizada (es decir, el commit del archivo "Respuestas.txt") colocando el commit realizado en la rama 'Opcion_2' debajo de esta última,
+al igual que el resto de confirmaciones realizadas previamente. Gráficamente, también, se aprecia como en esta última visualización, se 
+distingue lo desarrollado en la rama 'Opcion_2', por un lado, y lo desarrollado en la rama 'main', por otro lado.
+
+- Luego de hacer el merge entre las ramas 'main' y 'Opcion_2', se puede observar en la visualización gráfica del historial de versiones
+como los archivos de ambas ramas aparecen en una sola línea de desarrollo, es decir, el archivo que se encuentra en la rama 'Opcion_2'
+pasó a la rama principal siendo que desde la misma se realizó la fusión. Además, se creó un historial de versiones unificado, pero que
+hace una distinción entre los historiales de versiones de ambas ramas.
